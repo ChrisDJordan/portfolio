@@ -1,0 +1,192 @@
+@media screen and (min-width: 30em) {
+    .hero {
+        height: 30em;
+        .wrapper {
+            h1 {
+                font-size: 3rem;
+                font-size: 48px;
+            }
+            p {
+                &:nth-child(2) {
+                    font-size: 18px;
+                    max-width: 60%;
+                }
+            }
+        }
+    }
+    section {
+        .port-wrap {}
+    }
+}
+
+@media screen and (min-width: 35em) {
+    section {
+        h2 {
+            font-size: 2.750rem;
+            font-size: 44px;
+        }
+        .port-wrap {
+            .zen, .bouldin {
+                max-width: 50%;
+            }
+            .bouldin {
+                // padding-top:60px;
+           
+            }
+            .zen {
+                float: left;
+                // margin-right: 2%;
+           
+            }
+        }
+    }
+    // grid----------------------------------------------------------------------
+    .col-5 {
+        @include grid(0.5);
+        min-height: 20px;
+        background: green;
+    }
+    .col1 {
+        @include grid(1);
+        min-height: 20px;
+        background: green;
+    }
+    .col2 {
+        @include grid(2);
+        min-height: 20px;
+    }
+    .col3 {
+        @include grid(3);
+        background: red;
+        min-height: 20px;
+    }
+    .col4 {
+        @include grid(4);
+    }
+    .col5 {
+        @include grid(5);
+        background: red;
+        min-height: 500px;
+    }
+    .col6 {
+        @include grid(6);
+        background: red;
+        min-height: 500px;
+    }
+    .col7 {
+        @include grid(7);
+    }
+    .col8 {
+        @include grid(8);
+        background: red;
+        min-height: 20px;
+    }
+    .col9 {
+        @include grid(9);
+    }
+    .col10 {
+        @include grid(10);
+    }
+    .col11 {
+        @include grid(11);
+    }
+    .col12 {
+        @include grid(12);
+    }
+    .col16 {
+        @include grid(16);
+    }
+    // div:last-of-type {
+    //     margin-right: 0;
+    // }
+}
+
+@media screen and (min-width: 46.8em) {
+    .hero {
+        height: 40em;
+        .wrapper {
+            h1 {
+                font-size: 4.375rem;
+                font-size: 70px;
+            }
+            p {
+                &:nth-child(2) {
+                    font-size: 1.125rem;
+                    font-size: 18px;
+                    max-width: 550px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 50em) {
+    // main section----------------------------------------------------------
+    .hero {
+        height: 50em;
+        .wrapper {
+            // background-image: url(http://placehold.it/1200x300);
+            h1 {
+                // font-size: 4.875em;
+                // font-size: 78px;
+           
+            }
+            p {
+                &:nth-child(2) {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+    header {
+        background: rgba(255, 255, 255, 0.3);
+        p {
+            font-size: 64px;
+            font-size: 4em;
+        }
+    }
+    section {
+        // background:#EDEAE6;
+        h2 {
+            font-size: 4.375rem;
+            font-size: 70px;
+        }
+        .port-wrap {
+           
+            .zen, .bouldin {
+                // margin-top:35px;
+                // width:25%;
+                // float:left;
+           
+            }
+        }
+    }
+    // menu links--------------------------------------------------------------
+    footer {
+        .col16 {
+            li {
+                margin: 20px 0 14px 1%;
+            }
+        }
+    }
+}
+
+// media querie------------------------------------------------
+
+// @media screen and (min-width: 900px) {
+//     header {
+
+//     }
+
+//     footer {
+//         .col16 {
+//             &:after {
+//                 width: 425px;
+//                 top: -30px;
+//             }
+//             li {
+//                 padding: 45px 0 40px 5%;
+//             }
+//         }
+//     }
+// }
